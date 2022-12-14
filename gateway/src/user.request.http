@@ -1,0 +1,14 @@
+### Create User
+POST http://localhost:3000
+Content-Type: application/json
+
+{
+  "email": "grzegorz.chlosta@gmail.com",
+  "password": "zaq1xsw2"
+}
+
+### Fetch analytics from gateway
+GET http://localhost:3000/analytics
+
+### Fetch analytics from microservice
+GET http://localhost:3001/analytics
